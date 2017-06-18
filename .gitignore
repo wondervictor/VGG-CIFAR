@@ -103,3 +103,11 @@ ENV/
 
 # PyCharm
 .idea
+
+
+# Data
+Images
+*batch_2
+
+# Output
+output
