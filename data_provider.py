@@ -17,7 +17,5 @@ def data_reader(path, n):
 
             size = 10000
             for i in range(size):
-                yield {'image': X[i] / 255.0,
-                       'label': int(Y[i])
-                       }
+                yield X[i] / 255.0, int(Y[i])
     return reader
